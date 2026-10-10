@@ -61,7 +61,7 @@ Choose **Device Input Mask** on the CIM device to link switch positions to work 
 | **Input Mask (Human Readable)** | Optional. Enter the mask with dots or spaces, for example `1.0.1`. Business Central converts it to `101`. |
 | **Work Code** | The work code that applies when the switches match the mask. |
 | **Include Counter** | Writes the counter value to the workflow partner response entry. |
-| **Priority** | `TODO: verify with developer` the meaning of this field. |
+| **Priority** | Defines the priority of the active mask. |
 | **Device Status** | The status of the device. |
 
 ## Cost centers

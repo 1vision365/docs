@@ -6,9 +6,7 @@ support_agent: false
 Newest first. The agent adds an entry per release.
 
 <!-- agent:begin release-notes -->
-## Next release (28.3.240.2)
-
-`TODO: verify with developer` the release version and date. These notes are based on the changes since the last release tag.
+## Next release (28.4.x.x)
 
 ### Improved
 

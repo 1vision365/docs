@@ -27,5 +27,5 @@ The installation creates these default tags. Change a tag only if your Moxa mess
 
 The adapter also knows the properties **EventMoxaServerName** and **InputChannel**.
 
-`TODO: verify with developer` how the tags relate to the message template on the Moxa device, and when you need the additional properties.
+These additional properties are hardocoded internally and cannot be set or changed.
 <!-- agent:end configuration -->

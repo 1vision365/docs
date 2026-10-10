@@ -36,5 +36,5 @@ The installation creates these default tags. Change a tag only if your ifm moneo
 
 The adapter also knows the properties **EventControllerId**, **InputChannel**, **Gateway**, **IOLinkMaster**, **IPAddressPort** and **Device**.
 
-`TODO: verify with developer` when you need to set these additional properties.
+These additional properties are defaulted and hardcoded in the ifm moneo system.
 <!-- agent:end configuration -->
