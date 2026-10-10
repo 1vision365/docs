@@ -1,34 +1,36 @@
-# 1Vision365 docs
+# 1Vision365 Docs
 
-MkDocs Material site, deployed to GitHub Pages. Documentation for the 1Vision365 AppSource apps.
+Documentation for the **1Vision365** apps on [Microsoft AppSource](https://appsource.microsoft.com/), for Microsoft Dynamics 365 Business Central.
 
-## Setup (once)
+**Read the docs: <https://docs.1vision365.com/>**
 
-1. Create a repo `1vision365/docs` and push this folder to `main`.
-2. GitHub: **Settings > Pages > Source: GitHub Actions**.
-3. Push to `main`. The `Deploy docs to GitHub Pages` workflow builds and publishes the site.
-4. Optional: custom domain under **Settings > Pages** (for example `docs.1vision365.nl`), then update `site_url` in `mkdocs.yml`.
+## Apps
 
-## Local preview
+| App | What it does | Documentation |
+|---|---|---|
+| **1Vision IoT Link** | Receives signals from IoT devices through Azure IoT Hub and makes them available in Business Central. | [Open](https://docs.1vision365.com/apps/iot-link/) |
+| **1Vision IoT-2-PrintVis Connector** | Connects IoT Link to PrintVis, so machine signals reach your production orders. | [Open](https://docs.1vision365.com/apps/iot2printvis-connector/) |
+| **1Vision IoT-2-PrintVis Adapter - ifm Moneo** | Adapter for ifm moneo devices. | [Open](https://docs.1vision365.com/apps/iot2printvis-adapter-ifm-moneo/) |
+| **1Vision IoT-2-PrintVis Adapter - Moxa** | Adapter for Moxa devices. | [Open](https://docs.1vision365.com/apps/iot2printvis-adapter-moxa/) |
 
-Double-click `serve.cmd`, or run `.\serve` in PowerShell. The first run creates a `.venv` and installs the requirements. Then it opens http://127.0.0.1:8000 and refreshes when you save a file. Stop with `Ctrl+C`.
+Each app has pages for installation, configuration, features, permissions, release notes and troubleshooting.
 
-## Add an app
+## Requirements
 
-1. Copy `docs/apps/iot-link/` to `docs/apps/<new-app>/`.
-2. Add the pages to `nav` in `mkdocs.yml` and a card to `docs/index.md`.
+The apps target Business Central 28.0 and depend on the 1Vision Core Library. The PrintVis apps also require PrintVis 28.0 and IoT Link. See the installation page of each app for the exact versions.
 
-## Docs agent (OpenClaw)
+## Support and feedback
 
-- `docs-style.md` is the instruction file for the agent. Load it as agent context.
-- `app-repo-workflow/notify-openclaw.yml` goes into each AL app repo. It posts to your OpenClaw webhook on push to `main` and on release.
-- The agent opens a pull request in this repo. The `Docs build check` workflow validates it. Merge triggers the deploy.
-- Generated text lives between `<!-- agent:begin id -->` and `<!-- agent:end id -->` markers. Everything outside the markers is yours.
+- Support: see the [Support page](https://docs.1vision365.com/support/).
+- Found an error or unclear text in the documentation? [Open an issue](https://github.com/1vision365/docs/issues) or suggest a change with the **Edit this page** button on the site.
+- Privacy: [Privacy policy](https://1vision365.com/privacy-policy/) and [software license terms](https://1vision365.com/1vision365-software-license-terms/).
 
-## AppSource
+## About this repository
 
-Use the published URLs in the offer listing: the app's docs page as help link, plus `/support/` and `/privacy/`. Replace the placeholder text on those two pages first.
+The documentation is written in Markdown (MkDocs Material) and published automatically to GitHub Pages when a change is merged to `main`. Parts of it are kept in sync with the app source code by an automated agent; every change goes through a pull request.
 
-## Support agent visibility
+Maintainers: see [MAINTAINING.md](MAINTAINING.md).
 
-Every page starts with `support_agent: false` in its front matter, which hides it from the public support agent. Remove that block from a page **only after you reviewed it** (no TODOs, no placeholder values). Lines containing `TODO` are always hidden from the agent.
+---
+
+&copy; 1Vision365 &middot; <https://1vision365.com>
