@@ -8,6 +8,18 @@ support_agent: false
 
 The privacy policy of 1Vision365 is available at [1vision365.com/privacy-policy](https://1vision365.com/privacy-policy/). The license terms are at [1vision365.com/1vision365-software-license-terms](https://1vision365.com/1vision365-software-license-terms/).
 
+## Data controller
+
+| | |
+|---|---|
+| **Company** | 1Vision365 B.V. |
+| **Address** | Lotusvliet 22, 3545 DH Utrecht, The Netherlands |
+| **Chamber of Commerce (KVK)** | 90127811 |
+| **Website** | [1vision365.com](https://1vision365.com) |
+| **Contact** | [info@1vision365.com](mailto:info@1vision365.com) |
+
+Note: the policy at [1vision365.com/privacy-policy](https://1vision365.com/privacy-policy/) is the general privacy policy for the 1vision365.com website (comments, cookies, Gravatar) — it does not describe how the Business Central apps themselves handle data. The sections below cover that.
+
 ## What data the apps process
 
 The apps process operational and technical data, not personal data:
