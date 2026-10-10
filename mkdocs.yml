@@ -1,0 +1,96 @@
+site_name: 1Vision365 Docs
+site_description: Documentation for 1Vision365 apps on Microsoft AppSource
+site_url: https://1vision365.github.io/docs/
+repo_url: https://github.com/1vision365/docs
+repo_name: 1vision365/docs
+edit_uri: edit/main/docs/
+copyright: Copyright &copy; 1Vision365
+
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - 1Vision IoT Link:
+      - Overview: apps/iot-link/index.md
+      - Installation: apps/iot-link/installation.md
+      - Configuration: apps/iot-link/configuration.md
+      - Features: apps/iot-link/features.md
+      - Permissions: apps/iot-link/permissions.md
+      - Release notes: apps/iot-link/release-notes.md
+      - Troubleshooting: apps/iot-link/troubleshooting.md
+  - 1Vision IoT-2-PrintVis Connector:
+      - Overview: apps/iot2printvis-connector/index.md
+      - Installation: apps/iot2printvis-connector/installation.md
+      - Configuration: apps/iot2printvis-connector/configuration.md
+      - Features: apps/iot2printvis-connector/features.md
+      - Permissions: apps/iot2printvis-connector/permissions.md
+      - Release notes: apps/iot2printvis-connector/release-notes.md
+      - Troubleshooting: apps/iot2printvis-connector/troubleshooting.md
+  - "IoT-2-PrintVis Adapter: ifm moneo":
+      - Overview: apps/iot2printvis-adapter-ifm-moneo/index.md
+      - Installation: apps/iot2printvis-adapter-ifm-moneo/installation.md
+      - Configuration: apps/iot2printvis-adapter-ifm-moneo/configuration.md
+      - Features: apps/iot2printvis-adapter-ifm-moneo/features.md
+      - Permissions: apps/iot2printvis-adapter-ifm-moneo/permissions.md
+      - Release notes: apps/iot2printvis-adapter-ifm-moneo/release-notes.md
+      - Troubleshooting: apps/iot2printvis-adapter-ifm-moneo/troubleshooting.md
+  - "IoT-2-PrintVis Adapter: Moxa":
+      - Overview: apps/iot2printvis-adapter-moxa/index.md
+      - Installation: apps/iot2printvis-adapter-moxa/installation.md
+      - Configuration: apps/iot2printvis-adapter-moxa/configuration.md
+      - Features: apps/iot2printvis-adapter-moxa/features.md
+      - Permissions: apps/iot2printvis-adapter-moxa/permissions.md
+      - Release notes: apps/iot2printvis-adapter-moxa/release-notes.md
+      - Troubleshooting: apps/iot2printvis-adapter-moxa/troubleshooting.md
+  - Support: support.md
+  - Privacy: privacy.md

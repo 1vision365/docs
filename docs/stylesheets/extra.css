@@ -1,0 +1,76 @@
+/* Palette derived from the 1Vision365 logo (teal #298597 / #257e8d, light teal #50bcc4, grey #737d88) */
+:root {
+  --md-primary-fg-color: #257e8d;
+  --md-primary-fg-color--light: #50bcc4;
+  --md-primary-fg-color--dark: #1d6571;
+  --md-accent-fg-color: #1d7482;
+  --md-typeset-a-color: #1d7482;
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #0f1a1c;
+  --md-primary-fg-color--light: #50bcc4;
+  --md-primary-fg-color--dark: #0b1315;
+  --md-accent-fg-color: #50bcc4;
+  --md-typeset-a-color: #50bcc4;
+  --md-default-bg-color: #0f1a1c;
+  --md-default-bg-color--light: #16262a;
+  --md-code-bg-color: #16262a;
+}
+
+/* Light header so the logo stays legible; thin teal accent line */
+.md-header, .md-tabs { background-color: #fff; color: #4d5661; }
+.md-header { box-shadow: 0 1px 0 #d9e6e9; border-bottom: 3px solid #298597; }
+.md-header__button.md-logo img, .md-header__button.md-logo svg { height: 2.6rem; width: auto; }
+.md-header .md-header__option, .md-header__button, .md-search__icon { color: #4d5661; }
+.md-search__input { background-color: #eef4f5; }
+[data-md-color-scheme="slate"] .md-header { background-color: #0f1a1c; color: #e6eef0; box-shadow: none; border-bottom-color: #50bcc4; }
+[data-md-color-scheme="slate"] .md-header__button, [data-md-color-scheme="slate"] .md-search__icon { color: #e6eef0; }
+[data-md-color-scheme="slate"] .md-search__input { background-color: #16262a; }
+
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset h2 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* App cards on the home page */
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.app-card {
+  display: block;
+  padding: 1.1rem 1.25rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  transition: border-color 0.15s, transform 0.15s;
+}
+
+.app-card:hover {
+  border-color: var(--md-accent-fg-color);
+  transform: translateY(-2px);
+}
+
+.app-card strong {
+  display: block;
+  font-size: 1.05rem;
+  margin-bottom: 0.25rem;
+}
+
+.app-card span {
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-header {
+  box-shadow: none;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
