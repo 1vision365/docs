@@ -8,22 +8,22 @@ Help and guides for the 1Vision365 apps for Microsoft Dynamics 365 Business Cent
 
 <a class="app-card" href="apps/iot-link/">
 <strong>1Vision IoT Link</strong>
-<span>TODO: one-line description.</span>
+<span>The generic IoT solution: receive IoT messages through Azure and process them in Business Central.</span>
 </a>
 
 <a class="app-card" href="apps/iot2printvis-connector/">
 <strong>1Vision IoT-2-PrintVis Connector</strong>
-<span>TODO: one-line description.</span>
+<span>Counters, speed and idle time from your machines on the PrintVis electronic job ticket.</span>
 </a>
 
 <a class="app-card" href="apps/iot2printvis-adapter-ifm-moneo/">
 <strong>1Vision IoT-2-PrintVis Adapter - ifm moneo</strong>
-<span>TODO: one-line description.</span>
+<span>Connect ifm moneo devices to PrintVis.</span>
 </a>
 
 <a class="app-card" href="apps/iot2printvis-adapter-moxa/">
 <strong>1Vision IoT-2-PrintVis Adapter - Moxa</strong>
-<span>TODO: one-line description.</span>
+<span>Connect Moxa devices to PrintVis.</span>
 </a>
 
 </div>

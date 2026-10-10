@@ -11,10 +11,7 @@ MkDocs Material site, deployed to GitHub Pages. Documentation for the 1Vision365
 
 ## Local preview
 
-```bash
-pip install -r requirements.txt
-mkdocs serve
-```
+Double-click `serve.cmd`, or run `.\serve` in PowerShell. The first run creates a `.venv` and installs the requirements. Then it opens http://127.0.0.1:8000 and refreshes when you save a file. Stop with `Ctrl+C`.
 
 ## Add an app
 
