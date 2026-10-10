@@ -49,10 +49,10 @@ For the device signals and production data described above, 1Vision365 is not a 
 
 Separately from the operational data above, we process limited personal data directly:
 
-- **License and subscription administration**: your company name, contact name, email address and billing details needed to deliver the apps, mostly handled through Microsoft AppSource/Partner Center on our behalf.
+- **License and subscription administration**: we invoice directly — either you as the end customer, or a partner who resells the apps to you. We process the company name, contact name, email address and billing details of whoever we have the direct contractual relationship with (you, or the partner). This is not handled through Microsoft AppSource/Partner Center billing; Microsoft AppSource is only used for app discovery and installation. If you purchase through a partner, that partner handles their own invoicing and data processing towards you as their end customer, under their own privacy policy.
 - **Support requests**: whatever you share with us, for example through the [public support repository](https://github.com/1vision365/support) or by email. That repository is public — do not include personal or confidential data in it (see the [Support page](support.md)).
 
-Legal basis: performance of our contract with you (the license/subscription), and our legitimate interest in providing support.
+Legal basis: performance of our contract with you or with the partner that supplies you, and our legitimate interest in providing support.
 
 ## Data retention
 
