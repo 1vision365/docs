@@ -1,6 +1,3 @@
----
-support_agent: false
----
 # 1Vision IoT-2-PrintVis Adapter - ifm moneo
 
 <!-- agent:begin overview -->

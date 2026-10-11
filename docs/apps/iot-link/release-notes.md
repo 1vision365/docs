@@ -1,11 +1,10 @@
----
-support_agent: false
----
 # Release notes
 
-Newest first. The agent adds an entry per release.
+Newest first.
 
 <!-- agent:begin release-notes -->
+<!-- Unreleased: move this block out of the comment when the release is published.
+
 ## Next release (28.4.x.x)
 
 ### New
@@ -30,4 +29,34 @@ Newest first. The agent adds an entry per release.
 - The IoT Hub is now created during provisioning, including its routing endpoint and rule.
 - The routing configuration is pushed to Azure right after provisioning.
 - The Service Bus queue send connection string is now stored.
+-->
+
+## 28.3.240 — 26 August 2026
+
+### Fixed
+
+- A runtime error in Assisted Setup when the short title of the IoT Setup Wizard was too long in a translation, for example in Dutch.
+
+## 28.3.231 — 4 August 2026
+
+### Fixed
+
+- The heartbeat scheduling no longer breaks an app upgrade when scheduling tasks is not permitted.
+
+## 28.2.138 — 16 May 2026
+
+### Fixed
+
+- A problem when modifying records in debug mode.
+
+## 28.0.0 — 23 April 2026
+
+### Improved
+
+- Updated for Business Central version 28.
+
+### Fixed
+
+- An issue with the retention policy.
 <!-- agent:end release-notes -->
+

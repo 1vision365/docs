@@ -1,6 +1,3 @@
----
-support_agent: false
----
 # Features
 
 <!-- agent:begin features -->

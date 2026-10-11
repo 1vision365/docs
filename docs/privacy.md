@@ -1,6 +1,3 @@
----
-support_agent: false
----
 # Privacy policy
 
 _Last updated: 2026-10-10_

@@ -1,6 +1,3 @@
----
-support_agent: false
----
 # 1Vision IoT Link
 
 <!-- agent:begin overview -->

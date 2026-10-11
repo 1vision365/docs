@@ -1,6 +1,3 @@
----
-support_agent: false
----
 # Permissions
 
 <!-- agent:begin permissions -->

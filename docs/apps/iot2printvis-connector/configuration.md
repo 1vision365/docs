@@ -1,6 +1,3 @@
----
-support_agent: false
----
 # Configuration
 
 <!-- agent:begin configuration -->

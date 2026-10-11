@@ -1,6 +1,3 @@
----
-support_agent: false
----
 # Support
 
 ## How to get help

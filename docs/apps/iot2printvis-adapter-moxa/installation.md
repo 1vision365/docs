@@ -1,6 +1,3 @@
----
-support_agent: false
----
 # Installation
 
 <!-- agent:begin installation -->
