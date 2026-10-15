@@ -2,9 +2,6 @@ name: Docs build check
 
 on:
   pull_request:
-    paths:
-      - "docs/**"
-      - "mkdocs.yml"
 
 jobs:
   build:
