@@ -31,6 +31,12 @@ Newest first.
 - The Service Bus queue send connection string is now stored.
 -->
 
+## 28.5.264 — 17 October 2026
+
+### Fixed
+
+- Removed a leftover debug message that could appear during license validation.
+
 ## 28.3.240 — 26 August 2026
 
 ### Fixed

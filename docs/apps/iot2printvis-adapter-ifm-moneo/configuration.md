@@ -9,12 +9,12 @@
 
 ## Adapter setup
 
-Search for **PrintVis ifm Moneo AdapterSetup**.
+Search for **PrintVis ifm Moneo Adapter Setup**.
 
 | Field | Description |
 |---|---|
 | **Maximum Allowed Idle Time (seconds)** | The maximum idle time before the controller is marked offline. |
-| **Moneo Match Field** | The ifm moneo device field that IoT Link uses to match routing rules for this adapter. |
+| **Moneo Match Field** | The ifm moneo device field that IoT Link uses to match routing rules for this adapter. TODO: verify with developer — this field was not found in the adapter source as of 28.5.264. |
 
 ## Tag settings
 
