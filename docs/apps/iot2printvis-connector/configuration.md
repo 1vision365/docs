@@ -14,6 +14,8 @@ Complete the setup in this order:
 
 Search for **IoT Device**. On each device, set **Controller Adapter** to the adapter that connects to the event controller.
 
+Select multiple devices and choose **Copy IoT Device Type & Controller Adapter setting to all selected** to copy the IoT Device Type and Controller Adapter setting from the current device to all selected devices at once.
+
 ## IoT controllers
 
 Search for **List of connected IoT Controllers**. The page lists the controllers that sent signals.
@@ -72,7 +74,7 @@ Open the **Cost Center Card**. The **IoT PV Settings** group has the settings be
 | **Machine Counter Activated** | Turn this on to add a record to the PrintVis machine counter table and signal that this feature is active. |
 | **Auto Switch to Production Mode** | Switches to production automatically when the production speed threshold is met. |
 | **Production Speed Threshold** | The speed that triggers the automatic switch. |
-| **Speed Duraction Threshold (sec)** | How many seconds the speed must stay above the threshold before the switch. This prevents short speed changes from triggering a switch. |
+| **Speed Duration Threshold (sec)** | How many seconds the speed must stay above the threshold before the switch. This prevents short speed changes from triggering a switch. |
 
 Under **Idle Time Settings**:
 
@@ -92,4 +94,20 @@ Search for these pages:
 - **Idle Time Types**: the classification of idle time, with an **Idle Type Code** and **Idle Type Description**.
 - **Machine Section**: the sections of a machine, with a **Section Code** and **Section Name**.
 - **Idle Type Reasons**: which reason codes the operator may choose per idle type. Each line combines a **Department**, **Cost Center Code**, **Section Code**, **Idle Type Code** and **Idle Time Reason Code**. Leave the department empty to allow the reason for all departments. You must fill in the idle type code and the reason code on every new line.
+
+## Quantity registration mode
+
+On the **Unit of Measure Card**, **Extra Work Codes** or **Shop Floor Metro X-Ref**, set **IoT Quantity Registration** to control what happens with the quantity that a DCM device counted automatically.
+
+| Value | What happens |
+|---|---|
+| (blank) | Standard behavior: the counted quantity is registered as usual. |
+| **Register** | The counted quantity is registered as usual. |
+| **Discard** | The quantity is not registered and removed from the operation's running total. |
+| **Zero, Keep in Totals** | The quantity is not registered on this entry, but the operation's running total is not corrected. |
+| **Carry to Next Production** | The quantity is not registered now. It is added to the next registration for this job once that registration resolves to **Register**. |
+
+If more than one setting applies, the connector uses the most specific one: the work code button on the Shop Floor Metro/App X-Ref, then the Extra Work Code, then the Unit of Measure.
+
+The applied mode and any suppressed quantity are visible on **Labor Entries** and the **Shop Floor Journal List**, in the fields **IoT Qty. Reg. Mode Applied** and **IoT Suppressed Qty.**. While a registration is not in **Register** mode, the live counter on the electronic job ticket pauses instead of counting up.
 <!-- agent:end configuration -->

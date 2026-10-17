@@ -5,16 +5,31 @@ Newest first.
 <!-- agent:begin release-notes -->
 <!-- Unreleased: move this block out of the comment when the release is published.
 
-## Next release (28.4.x.x)
-
-### New
-
-- The license is counted per physical IoT device. Business Central regularly removes device status lines of CIM devices that no longer exist, so renumbered controllers, devices or channels do not inflate the license count.
+## Next release
 
 ### Improved
 
 - The routing of signals for the Moxa and ifm moneo adapters no longer depends on fields in IoT Link.
 -->
+
+## 28.5.264 — 17 October 2026
+
+### New
+
+- **IoT Quantity Registration**: assign a quantity registration mode (**Register**, **Discard**, **Zero, Keep in Totals** or **Carry to Next Production**) per unit of measure, extra work code or work code button, to control what happens with a quantity that a DCM device counted automatically. The applied mode and any suppressed quantity are visible on **Labor Entries** and the **Shop Floor Journal List**.
+- The license is counted per physical IoT device. Business Central regularly removes device status lines of CIM devices that no longer exist, so renumbered controllers, devices or channels do not inflate the license count.
+- A new action, **Copy IoT Device Type & Controller Adapter setting to all selected**, copies the IoT Device Type and Controller Adapter setting from one IoT device to multiple selected devices at once.
+
+### Improved
+
+- Clearer tooltips on the Idle Time Registration page and the Device Status field that describe what each field means instead of repeating its name.
+- The notification for unaccounted idle time now points to every registration that is missing a comment, idle type or extra work code, not only the first one found.
+
+### Fixed
+
+- Corrected the caption **Speed Duration Threshold (sec)** on the cost center (previously misspelled "Speed Duraction Threshold").
+- Fixed a crash that could occur when Business Central found no matching idle type reason while validating an idle time registration.
+- Selecting a Section Code or Idle Type without a matching reason no longer shows a "cannot be found in the related table" error; the Idle Type and Extra Work Code are cleared instead.
 
 ## 28.3.240 — 26 August 2026
 

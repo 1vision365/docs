@@ -6,7 +6,7 @@
 | | |
 |---|---|
 | **Publisher** | 1Vision365 |
-| **Latest version** | 28.3.240.2 |
+| **Latest version** | 28.5.264.0 |
 | **Minimum Business Central version** | 28.0 |
 | **Requires** | PrintVis 28.0 or later, [1Vision IoT Link](../iot-link/index.md) 28.2.0.0 or later, 1Vision Core Library 28.2.0.0 or later |
 | **Also needed** | A device adapter: [Moxa](../iot2printvis-adapter-moxa/index.md) or [ifm moneo](../iot2printvis-adapter-ifm-moneo/index.md) |

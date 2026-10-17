@@ -34,7 +34,7 @@ Switch signals can select the work code of a machine. You define which combinati
 
 ## Automatic switch to production
 
-Normally the operator switches a job from setup to production on the electronic job ticket. The connector can do this automatically. When **Auto Switch to Production Mode** is on for the cost center and the machine speed stays above the **Production Speed Threshold** for the **Speed Duraction Threshold (sec)**, the job switches to production. This only happens while the active process is a setup process.
+Normally the operator switches a job from setup to production on the electronic job ticket. The connector can do this automatically. When **Auto Switch to Production Mode** is on for the cost center and the machine speed stays above the **Production Speed Threshold** for the **Speed Duration Threshold (sec)**, the job switches to production. This only happens while the active process is a setup process.
 
 ## Idle time registration and job costing
 
@@ -60,6 +60,12 @@ With **Use Enhanced Idle Time Registration** on the cost center, the operator mu
 - The operator selects an **Idle Type** and a **Reason Code** on the Idle Time Registration page. The available reasons come from the setup per idle type and department.
 - Before the job can be completed, Business Central checks that every registration has a type and reason, in addition to the mandatory comments.
 - The **Idle Type** and **Section Code** are passed on to the shop floor journal, the job costing labor entries and the job costing entries, so you can report on them.
+
+## Quantity registration mode
+
+By default, the connector registers every quantity that a DCM device counts automatically. With **IoT Quantity Registration**, you decide per unit of measure, extra work code, or work code button what happens with that counted quantity instead: register it, discard it, zero it while keeping it in the running total, or carry it over to the next registration. See [Quantity registration mode](configuration.md#quantity-registration-mode) for the setup and the exact behavior of each value.
+
+The applied mode and any suppressed quantity are visible on **Labor Entries** and the **Shop Floor Journal List**.
 
 ## License count and clean-up
 
