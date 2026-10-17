@@ -60,6 +60,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Release notes: release-notes.md
   - 1Vision IoT Link:
       - Overview: apps/iot-link/index.md
       - Installation: apps/iot-link/installation.md
