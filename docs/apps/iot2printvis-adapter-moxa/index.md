@@ -1,5 +1,7 @@
 # 1Vision IoT-2-PrintVis Adapter - Moxa
 
+![](../../assets/img/tile-moxa.webp){ .app-icon }
+
 <!-- agent:begin overview -->
 The Moxa adapter connects Moxa devices to PrintVis. It translates the messages of Moxa devices into signals that the [IoT-2-PrintVis Connector](../iot2printvis-connector/index.md) understands, such as input values with their unit and timestamp.
 
