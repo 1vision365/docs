@@ -1,5 +1,7 @@
 # 1Vision IoT-2-PrintVis Adapter - ifm moneo
 
+![](../../assets/img/tile-ifm.webp){ .app-icon }
+
 <!-- agent:begin overview -->
 The ifm moneo adapter connects ifm moneo devices to PrintVis. It translates the messages of ifm moneo into signals that the [IoT-2-PrintVis Connector](../iot2printvis-connector/index.md) understands, such as counter values and their timestamps.
 

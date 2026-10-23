@@ -1,5 +1,7 @@
 # 1Vision IoT Link
 
+![](../../assets/img/tile-iot-link.webp){ .app-icon }
+
 <!-- agent:begin overview -->
 1Vision IoT Link is the generic IoT solution for Business Central. It receives messages from IoT devices through Azure and processes them in Business Central. Other 1Vision365 apps, such as the IoT-2-PrintVis Connector, build on it.
 

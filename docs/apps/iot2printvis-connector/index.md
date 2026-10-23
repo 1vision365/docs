@@ -1,5 +1,7 @@
 # 1Vision IoT-2-PrintVis Connector
 
+![](../../assets/img/tile-connector.webp){ .app-icon }
+
 <!-- agent:begin overview -->
 1Vision IoT-2-PrintVis Connector connects the 1Vision IoT solution to PrintVis. It receives signals from IoT devices, such as counters and on/off switches on a machine, and uses them in PrintVis. The operator sees live counter and speed information on the electronic job ticket. The connector can also switch a job to production automatically and register machine idle time as job costing entries.
 
