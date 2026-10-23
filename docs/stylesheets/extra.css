@@ -97,13 +97,11 @@
 .md-typeset code { border-radius: 4px; }
 .md-footer { border-top: 1px solid var(--v-line); }
 
-/* Home page: hero and app cards (same card pattern as the website) */
+/* Home page: app cards (same card pattern as the website) */
 .v-eyebrow {
   display: block; font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.08em;
   text-transform: uppercase; color: var(--v-accent); margin-bottom: 0.6rem;
 }
-.v-hero { border-radius: 12px; overflow: hidden; box-shadow: var(--v-shadow); background: var(--v-deep); margin: 0 0 2rem; }
-.v-hero img { display: block; width: 100%; height: auto; }
 .app-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; margin: 1.5rem 0 2.5rem; }
 .app-card {
   display: flex; flex-direction: column; background: var(--v-surface); border: 1px solid var(--v-line);

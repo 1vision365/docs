@@ -4,8 +4,6 @@
 
 Help and guides for the 1Vision365 apps for Microsoft Dynamics 365 Business Central.
 
-<div class="v-hero"><img src="assets/img/hero-iot.webp" alt="Business Central and PrintVis connected to Moxa and ifm moneo devices through the cloud"></div>
-
 ## Apps
 
 <div class="app-grid">
