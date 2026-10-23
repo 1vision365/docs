@@ -32,6 +32,7 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.sections
+    - navigation.indexes
     - navigation.top
     - navigation.footer
     - toc.follow
@@ -61,37 +62,38 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Release notes: release-notes.md
-  - 1Vision IoT Link:
-      - Overview: apps/iot-link/index.md
-      - Installation: apps/iot-link/installation.md
-      - Configuration: apps/iot-link/configuration.md
-      - Features: apps/iot-link/features.md
-      - Permissions: apps/iot-link/permissions.md
-      - Release notes: apps/iot-link/release-notes.md
-      - Troubleshooting: apps/iot-link/troubleshooting.md
-  - 1Vision IoT-2-PrintVis Connector:
-      - Overview: apps/iot2printvis-connector/index.md
-      - Installation: apps/iot2printvis-connector/installation.md
-      - Configuration: apps/iot2printvis-connector/configuration.md
-      - Features: apps/iot2printvis-connector/features.md
-      - Permissions: apps/iot2printvis-connector/permissions.md
-      - Release notes: apps/iot2printvis-connector/release-notes.md
-      - Troubleshooting: apps/iot2printvis-connector/troubleshooting.md
-  - "IoT-2-PrintVis Adapter: ifm moneo":
-      - Overview: apps/iot2printvis-adapter-ifm-moneo/index.md
-      - Installation: apps/iot2printvis-adapter-ifm-moneo/installation.md
-      - Configuration: apps/iot2printvis-adapter-ifm-moneo/configuration.md
-      - Features: apps/iot2printvis-adapter-ifm-moneo/features.md
-      - Permissions: apps/iot2printvis-adapter-ifm-moneo/permissions.md
-      - Release notes: apps/iot2printvis-adapter-ifm-moneo/release-notes.md
-      - Troubleshooting: apps/iot2printvis-adapter-ifm-moneo/troubleshooting.md
-  - "IoT-2-PrintVis Adapter: Moxa":
-      - Overview: apps/iot2printvis-adapter-moxa/index.md
-      - Installation: apps/iot2printvis-adapter-moxa/installation.md
-      - Configuration: apps/iot2printvis-adapter-moxa/configuration.md
-      - Features: apps/iot2printvis-adapter-moxa/features.md
-      - Permissions: apps/iot2printvis-adapter-moxa/permissions.md
-      - Release notes: apps/iot2printvis-adapter-moxa/release-notes.md
-      - Troubleshooting: apps/iot2printvis-adapter-moxa/troubleshooting.md
+  - Apps:
+      - "IoT Link":
+          - apps/iot-link/index.md
+          - Installation: apps/iot-link/installation.md
+          - Configuration: apps/iot-link/configuration.md
+          - Features: apps/iot-link/features.md
+          - Permissions: apps/iot-link/permissions.md
+          - Release notes: apps/iot-link/release-notes.md
+          - Troubleshooting: apps/iot-link/troubleshooting.md
+      - "IoT-2-PrintVis Connector":
+          - apps/iot2printvis-connector/index.md
+          - Installation: apps/iot2printvis-connector/installation.md
+          - Configuration: apps/iot2printvis-connector/configuration.md
+          - Features: apps/iot2printvis-connector/features.md
+          - Permissions: apps/iot2printvis-connector/permissions.md
+          - Release notes: apps/iot2printvis-connector/release-notes.md
+          - Troubleshooting: apps/iot2printvis-connector/troubleshooting.md
+      - "Adapter - ifm moneo":
+          - apps/iot2printvis-adapter-ifm-moneo/index.md
+          - Installation: apps/iot2printvis-adapter-ifm-moneo/installation.md
+          - Configuration: apps/iot2printvis-adapter-ifm-moneo/configuration.md
+          - Features: apps/iot2printvis-adapter-ifm-moneo/features.md
+          - Permissions: apps/iot2printvis-adapter-ifm-moneo/permissions.md
+          - Release notes: apps/iot2printvis-adapter-ifm-moneo/release-notes.md
+          - Troubleshooting: apps/iot2printvis-adapter-ifm-moneo/troubleshooting.md
+      - "Adapter - Moxa":
+          - apps/iot2printvis-adapter-moxa/index.md
+          - Installation: apps/iot2printvis-adapter-moxa/installation.md
+          - Configuration: apps/iot2printvis-adapter-moxa/configuration.md
+          - Features: apps/iot2printvis-adapter-moxa/features.md
+          - Permissions: apps/iot2printvis-adapter-moxa/permissions.md
+          - Release notes: apps/iot2printvis-adapter-moxa/release-notes.md
+          - Troubleshooting: apps/iot2printvis-adapter-moxa/troubleshooting.md
   - Support: support.md
   - Privacy: privacy.md
