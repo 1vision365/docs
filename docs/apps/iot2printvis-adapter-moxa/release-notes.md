@@ -3,14 +3,16 @@
 Newest first.
 
 <!-- agent:begin release-notes -->
-<!-- Unreleased: move this block out of the comment when the release is published.
 
-## Next release (28.4.x.x)
+## 28.5.285 — 27 October 2026
+
+### New
+
+- When the connector's new **Auto-Create CIM Controller/Device** switch is on, the adapter creates and links a CIM Controller and CIM Device automatically for a controller or device it has not seen before.
 
 ### Improved
 
-- The routing of Moxa signals no longer depends on fields in IoT Link.
--->
+- The routing of Moxa signals no longer depends on fields in IoT Link; the adapter now supplies its own Tag ID setting as the routing match field.
 
 ## 28.3.200 — 23 June 2026
 

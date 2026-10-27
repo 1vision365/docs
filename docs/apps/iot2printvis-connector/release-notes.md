@@ -3,14 +3,22 @@
 Newest first.
 
 <!-- agent:begin release-notes -->
-<!-- Unreleased: move this block out of the comment when the release is published.
 
-## Next release
+## 28.5.285 — 27 October 2026
+
+### New
+
+- **Auto-Create CIM Controller/Device**: a new setup switch that automatically creates and links a PrintVis CIM Controller and CIM Device the first time an unrecognized controller or device reports data through the Moxa or ifm moneo adapter.
+- **Create/Link CIM Controller & Device** action on the IoT Device list: re-parses the most recently received message for a device and creates or links its CIM Controller and CIM Device, regardless of the Auto-Create CIM Controller/Device setting.
+- A **Linked CIM Device** field on the IoT Device list shows the CIM Device Code most recently resolved for that device.
 
 ### Improved
 
-- The routing of signals for the Moxa and ifm moneo adapters no longer depends on fields in IoT Link.
--->
+- The routing of signals for the Moxa and ifm moneo adapters no longer depends on fields in IoT Link; each adapter now supplies its own routing match field.
+
+### Fixed
+
+- The **Comment** field on the Idle Time Registration page can now be typed directly; you no longer need the assist-edit pop-up.
 
 ## 28.5.264 — 17 October 2026
 

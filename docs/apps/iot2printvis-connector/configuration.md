@@ -63,6 +63,18 @@ Choose **Device Input Mask** on the CIM device to link switch positions to work 
 | **Priority** | Defines the priority of the active mask. |
 | **Device Status** | The status of the device. |
 
+## Automatic CIM linking
+
+Normally you link a new IoT device to a PrintVis CIM Controller and CIM Device yourself, as described above. The connector can also create and link them for you.
+
+Search for **IoT Setup** and open the **CIM Integration** group.
+
+| Field | Description |
+|---|---|
+| **Auto-Create CIM Controller/Device** | When on, a PVS CIM Controller and PVS CIM Device are created and linked automatically the first time an unrecognized controller or device reports data through the Moxa or ifm moneo adapter. New records are created closed (inactive); review and activate them yourself. When off, linking stays fully manual. |
+
+Search for **IoT Device** to see the raw devices that IoT Link received. The **Linked CIM Device** field shows the CIM Device Code most recently resolved for a device. Choose **Create/Link CIM Controller & Device** to re-parse the device's last received message and create or link it immediately, regardless of the **Auto-Create CIM Controller/Device** setting.
+
 ## Cost centers
 
 Open the **Cost Center Card**. The **IoT PV Settings** group has the settings below.

@@ -8,7 +8,7 @@
 | | |
 |---|---|
 | **Publisher** | 1Vision365 |
-| **Latest version** | 28.5.264.0 |
+| **Latest version** | 28.5.285.0 |
 | **Minimum Business Central version** | 28.0 |
 | **Requires** | 1Vision Core Library 28.2.37.6 or later |
 | **Also needed** | An Azure subscription |
