@@ -61,6 +61,14 @@ With **Use Enhanced Idle Time Registration** on the cost center, the operator mu
 - Before the job can be completed, Business Central checks that every registration has a type and reason, in addition to the mandatory comments.
 - The **Idle Type** and **Section Code** are passed on to the shop floor journal, the job costing labor entries and the job costing entries, so you can report on them.
 
+## Automatic CIM linking
+
+When **Auto-Create CIM Controller/Device** is on, you no longer have to pre-link every controller and device. The first time the Moxa or ifm moneo adapter reports data for a controller or device it does not recognize, the connector creates a PVS CIM Controller and/or CIM Device for it and links them automatically. New records are created closed (inactive), so you still choose when to activate them.
+
+You can always create or link a device immediately, regardless of that setting: search for **IoT Device** and choose **Create/Link CIM Controller & Device** to re-parse the device's last received message. The **Linked CIM Device** field on the same page shows the CIM Device Code most recently resolved for a device.
+
+See [Automatic CIM linking](configuration.md#automatic-cim-linking) for the setup.
+
 ## Quantity registration mode
 
 By default, the connector registers every quantity that a DCM device counts automatically. With **IoT Quantity Registration**, you decide per unit of measure, extra work code, or work code button what happens with that counted quantity instead: register it, discard it, zero it while keeping it in the running total, or carry it over to the next registration. See [Quantity registration mode](configuration.md#quantity-registration-mode) for the setup and the exact behavior of each value.

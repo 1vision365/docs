@@ -10,6 +10,15 @@ For the full details per app, open the release notes of that app:
 
 <!-- agent:begin release-overview -->
 
+## 28.5.285 — 27 October 2026
+
+IoT Link's improved Setup Wizard with dynamic routing, automatic CIM linking for the Moxa and ifm moneo adapters, and a directly editable idle time comment.
+
+- **IoT Link** ([details](apps/iot-link/release-notes.md)): a new, improved **IoT Setup Wizard** with dynamic routing, support for multiple Business Central environments per customer, a provisioning log and resumable provisioning.
+- **IoT-2-PrintVis Connector** ([details](apps/iot2printvis-connector/release-notes.md)): new **Auto-Create CIM Controller/Device** setup switch and a manual **Create/Link CIM Controller & Device** action. The Idle Time Registration **Comment** field can now be typed directly.
+- **Adapter - ifm moneo** ([details](apps/iot2printvis-adapter-ifm-moneo/release-notes.md)): a new **Moneo Match Field** setting and support for automatic CIM linking.
+- **Adapter - Moxa** ([details](apps/iot2printvis-adapter-moxa/release-notes.md)): support for automatic CIM linking and its own adapter-supplied routing match field.
+
 ## 28.5.264 — 17 October 2026
 
 Quantity registration per operation type, license counting per physical device and clearer captions and tooltips.

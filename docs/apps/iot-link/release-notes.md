@@ -3,9 +3,8 @@
 Newest first.
 
 <!-- agent:begin release-notes -->
-<!-- Unreleased: move this block out of the comment when the release is published.
 
-## Next release (28.4.x.x)
+## 28.5.285 — 27 October 2026
 
 ### New
 
@@ -29,7 +28,7 @@ Newest first.
 - The IoT Hub is now created during provisioning, including its routing endpoint and rule.
 - The routing configuration is pushed to Azure right after provisioning.
 - The Service Bus queue send connection string is now stored.
--->
+- IoT Link no longer throws an error when no IoT Setup record exists yet.
 
 ## 28.5.264 — 17 October 2026
 

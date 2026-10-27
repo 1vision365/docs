@@ -3,14 +3,13 @@
 Newest first.
 
 <!-- agent:begin release-notes -->
-<!-- Unreleased: move this block out of the comment when the release is published.
 
-## Next release (28.4.x.x)
+## 28.5.285 — 27 October 2026
 
-### Improved
+### New
 
-- The **Moneo Match Field** is now part of the adapter setup, so the routing no longer depends on fields in IoT Link.
--->
+- A **Moneo Match Field** setting (default `devicePath`) in the adapter setup. It is used by the IoT Link V3 dynamic routing configuration to match rules for this adapter, and replaces the field that used to live in IoT Link's own setup.
+- When the connector's new **Auto-Create CIM Controller/Device** switch is on, the adapter creates and links a CIM Controller and CIM Device automatically for a controller or device it has not seen before.
 
 ## 28.5.264 — 17 October 2026
 
