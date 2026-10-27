@@ -10,6 +10,10 @@ For the full details per app, open the release notes of that app:
 
 <!-- agent:begin release-overview -->
 
+## 28.5.294 — 27 October 2026
+
+- **IoT-2-PrintVis Connector** ([details](apps/iot2printvis-connector/release-notes.md)): idle time segmentation now also applies to shop floor entries moved to the approval journal, a job-scoping fix for idle time reasons, **Production Started** no longer resets when a paused entry resumes, and corrected UTC start times on automatic-switch-to-production entries.
+
 ## 28.5.285 — 27 October 2026
 
 IoT Link's improved Setup Wizard with dynamic routing, automatic CIM linking for the Moxa and ifm moneo adapters, and a directly editable idle time comment.

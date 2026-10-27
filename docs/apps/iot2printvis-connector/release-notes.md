@@ -4,6 +4,15 @@ Newest first.
 
 <!-- agent:begin release-notes -->
 
+## 28.5.294 — 27 October 2026
+
+### Fixed
+
+- Idle time segmentation now also applies to shop floor entries that PrintVis has moved to the approval journal (when **Shop Floor Posting** is **Move Worksheet for Approval**), not only to entries completed directly on the shop floor.
+- The idle time reason, idle type and section code applied to a segment could in rare cases be taken from a different job's idle time registration if it had the same unit of measure and a matching time window; segmentation is now scoped to the correct job.
+- Resuming a paused shop floor entry on the same job no longer resets the **Production Started** time, so progress already made toward the automatic switch to production is preserved. Previously only a genuinely new job should reset it.
+- Journal entries created when the automatic switch to production starts a new job no longer record the start time in UTC; it is now corrected to the operator's time zone.
+
 ## 28.5.285 — 27 October 2026
 
 ### New
