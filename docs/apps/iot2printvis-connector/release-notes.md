@@ -4,6 +4,13 @@ Newest first.
 
 <!-- agent:begin release-notes -->
 
+## 28.5.299 — 28 October 2026
+
+### Fixed
+
+- The **Complete entries now** notification action for unaccounted idle time now always opens the idle time registration(s) that actually caused the notification; it could previously open an empty list.
+- The automatic switch to production now really waits for the **Speed Duration Threshold (sec)** before switching; previously it could switch to production after a single event at production speed, even with a threshold of several minutes.
+
 ## 28.5.294 — 27 October 2026
 
 ### Fixed
