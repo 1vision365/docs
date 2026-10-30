@@ -4,6 +4,14 @@ Newest first.
 
 <!-- agent:begin release-notes -->
 
+## 28.5.302 — 30 October 2026
+
+### Fixed
+
+- Idle segments posted to the shop floor journal no longer lose their idle type, reason code and section code; a lookup defect caused this information to be dropped from every idle segment, posting it as if no reason had been given.
+- The setup time that is running when a job automatically switches to production is no longer deleted; it is now stopped and kept, so this time and the quantity registered during it are no longer missing from job costing.
+- The stop time recorded for that setup entry now shows the operator's local time instead of UTC, when the automatic switch runs in the background.
+
 ## 28.5.299 — 28 October 2026
 
 ### Fixed

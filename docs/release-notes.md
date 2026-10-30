@@ -10,6 +10,10 @@ For the full details per app, open the release notes of that app:
 
 <!-- agent:begin release-overview -->
 
+## 28.5.302 — 30 October 2026
+
+- **IoT-2-PrintVis Connector** ([details](apps/iot2printvis-connector/release-notes.md)): idle segments posted to the shop floor journal no longer lose their idle type, reason code and section code, and the setup time active during an automatic switch to production is kept and correctly stopped instead of deleted.
+
 ## 28.5.299 — 28 October 2026
 
 - **IoT-2-PrintVis Connector** ([details](apps/iot2printvis-connector/release-notes.md)): the **Complete entries now** notification action now always opens the idle time registration(s) that caused it, and the automatic switch to production now really waits for the **Speed Duration Threshold (sec)**.
