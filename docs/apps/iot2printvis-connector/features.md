@@ -49,6 +49,8 @@ The counter signals normally only record the counter value when the operator sta
 !!! note
     Timing depends on the delay between the layers. If the device sends counter values every 30 seconds and the counter on the job ticket also updates every 30 seconds, a machine can stand still for 30 to 60 seconds before the process triggers.
 
+Before posting, the PrintVis Job Costing Worksheet shows the description of the reason code, the machine section and its name, and the idle type with its description for each line, so you can see which lines are downtime and why.
+
 ### Idle Time Registration
 
 Search for **Idle Time Registration**, or choose **Idle Time Registrations** on the electronic job ticket. The page lists the idle time registrations with the cost center, order and job, start and end time, duration, work code, section, idle type, reason code, comment and machine counter. Use **Toggle No Comments Only** to show only the registrations that still need a comment. Use **Toggle Show Processed** to show or hide processed registrations. **Delete** removes a registration.
