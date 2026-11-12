@@ -40,7 +40,7 @@ Normally the operator switches a job from setup to production on the electronic 
 
 The counter signals normally only record the counter value when the operator starts, stops or changes the operation. If the machine stands still in between, nothing is recorded. The connector closes this gap:
 
-1. When the machine stands still longer than the **Idle Time Threshold for Job Costing (sec)**, the connector creates a shop floor entry for the idle time in the background.
+1. When the machine stands still longer than the **Idle Time Threshold for Job Costing (sec)**, the connector creates a shop floor entry for the idle time in the background. This does not happen while a makeready operation is running on the cost center: standing still for setup work such as changing plates, ink or register counts as makeready time, not idle time (TODO: verify with developer where the make-ready unit of measure is set up in PrintVis). Idle time counting resumes once the next operation starts.
 2. Within the **Idle Time Grace Period (sec)**, the entry uses the **Grace Period Reason Code** and no operator input is needed.
 3. Outside the grace period, the entry uses the **Idle Time Reason Code**, which requires comments. The operator gets the notification **A shop floor entry has been created for unaccounted idle time** with the action **Complete entries now**. The action opens the page where the operator enters the comments.
 4. If the job is still running when the machine starts again, the connector creates a new shop floor entry for the current operation. This completes the cycle of accountable time.

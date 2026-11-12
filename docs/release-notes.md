@@ -10,6 +10,10 @@ For the full details per app, open the release notes of that app:
 
 <!-- agent:begin release-overview -->
 
+## 28.5.475 — 12 November 2026
+
+- **IoT-2-PrintVis Connector** ([details](apps/iot2printvis-connector/release-notes.md)): idle time is no longer registered while a makeready operation is running on the cost center.
+
 ## 28.5.302 — 30 October 2026
 
 - **IoT-2-PrintVis Connector** ([details](apps/iot2printvis-connector/release-notes.md)): idle segments posted to the shop floor journal no longer lose their idle type, reason code and section code, and the setup time active during an automatic switch to production is kept and correctly stopped instead of deleted.
