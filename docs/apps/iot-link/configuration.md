@@ -73,7 +73,7 @@ The wizard fills these fields. Change them only if you manage the Azure resource
 | **Application Insights Resource Name** | 1 to 250 characters. Letters, numbers, periods, underscores, hyphens and parentheses. Cannot end in a period. |
 | **Application Insights Primary Connection String** | Used by the Function App to send log information to Application Insights. |
 | **Function App Name** | Gets the URL `https://<name>.azurewebsites.net/`, so it must be globally unique. |
-| **App Service Plan** | The compute resources of the Function App. A new plan starts as F1 (Free). You can scale it up later. |
+| **App Service Plan** | The compute resources of the Function App. The IoT Setup Wizard creates a Y1 Consumption plan. The legacy wizard creates a new plan as F1 (Free), which you can scale up later. |
 | **IoT Hub Name** | 3 to 50 characters. Letters, numbers and hyphens. |
 | **IoT Hub Device** | Maximum 128 characters. |
 | **IoT Device Primary Connection String** | Used by external IoT devices to send events to the IoT Hub. |
