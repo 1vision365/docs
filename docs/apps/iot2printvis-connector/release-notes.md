@@ -4,6 +4,11 @@ Newest first.
 
 <!-- agent:begin release-notes -->
 
+## 28.5.475 — 12 November 2026
+
+### Fixed
+
+- Idle time is no longer registered while a makeready operation is running on the cost center; standing still for setup work (for example changing plates, ink or register) now counts as makeready time instead of idle time.
 ## 28.5.471 — 9 November 2026
 
 ### Fixed
