@@ -4,6 +4,12 @@ Newest first.
 
 <!-- agent:begin release-notes -->
 
+## 28.5.471 — 9 November 2026
+
+### Fixed
+
+- A production segment shorter than about 18 seconds, between two downtimes, no longer loses its quantity. Its quantity is now added to the next production segment, or to the previous one when there is no next segment.
+
 ## 28.5.380 — 5 November 2026
 
 ### New

@@ -10,6 +10,10 @@ For the full details per app, open the release notes of that app:
 
 <!-- agent:begin release-overview -->
 
+## 28.5.471 — 9 November 2026
+
+- **IoT-2-PrintVis Connector** ([details](apps/iot2printvis-connector/release-notes.md)): a very short production segment between two downtimes no longer loses its quantity.
+
 ## 28.5.380 — 5 November 2026
 
 - **IoT-2-PrintVis Connector** ([details](apps/iot2printvis-connector/release-notes.md)): the PrintVis Job Costing Worksheet now shows the reason code, section and idle type with their descriptions on each line before posting. Fixed an incorrect idle time split on the shop floor journal, the operator's clock time on the stopped setup entry after an automatic switch to production, and the green **active** bar not following the running unit after that switch.
