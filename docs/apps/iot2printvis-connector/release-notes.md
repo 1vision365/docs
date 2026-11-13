@@ -9,6 +9,23 @@ Newest first.
 ### Fixed
 
 - Idle time is no longer registered while a makeready operation is running on the cost center; standing still for setup work (for example changing plates, ink or register) now counts as makeready time instead of idle time.
+## 28.5.471 — 9 November 2026
+
+### Fixed
+
+- A production segment shorter than about 18 seconds, between two downtimes, no longer loses its quantity. Its quantity is now added to the next production segment, or to the previous one when there is no next segment.
+
+## 28.5.380 — 5 November 2026
+
+### New
+
+- The PrintVis Job Costing Worksheet now shows, for each line, the description of the reason code, the machine section and its name, and the idle type with its description. This lets the production leader see which lines are downtime and why, before posting the consumption journal.
+
+### Fixed
+
+- Idle segments on the shop floor journal no longer get an incorrect **Extra Used Hours** split; a timing defect could record part of the idle time as regular time or show a small negative value instead of the actual idle duration. Hours are now also rounded to two decimals.
+- After an automatic switch to production, the stop time of the setup entry that is kept now reliably shows the operator's own clock time; the previous correction depended on a Business Central user lookup that did not match the operator and so did not always apply.
+- The green **active** bar on the electronic job ticket now follows the unit that is actually running after an automatic switch to production; it previously could stay on the setup tile.
 
 ## 28.5.302 — 30 October 2026
 
