@@ -10,6 +10,10 @@ For the full details per app, open the release notes of that app:
 
 <!-- agent:begin release-overview -->
 
+## 28.5.485 — 16 November 2026
+
+- **IoT-2-PrintVis Connector** ([details](apps/iot2printvis-connector/release-notes.md)): the current speed on the electronic job ticket is now averaged over a configurable window so it no longer jumps between readings; an out-of-order counter message no longer disturbs the speed or the stopped state.
+
 ## 28.5.475 — 12 November 2026
 
 - **IoT-2-PrintVis Connector** ([details](apps/iot2printvis-connector/release-notes.md)): idle time is no longer registered while a makeready operation is running on the cost center.

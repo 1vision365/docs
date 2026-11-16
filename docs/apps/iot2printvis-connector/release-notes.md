@@ -4,6 +4,16 @@ Newest first.
 
 <!-- agent:begin release-notes -->
 
+## 28.5.485 — 16 November 2026
+
+### Improved
+
+- The **Current Speed** on the electronic job ticket is now averaged over a configurable window instead of a single message, so it no longer jumps between readings. Set the new **Speed Averaging Window (sec)** field on the cost center; it defaults to 30 seconds, existing cost centers are switched on automatically.
+
+### Fixed
+
+- A counter message that arrives out of order no longer moves the current speed backward or wrongly marks the machine as stopped.
+
 ## 28.5.475 — 12 November 2026
 
 ### Fixed

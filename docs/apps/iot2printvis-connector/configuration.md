@@ -83,6 +83,7 @@ Open the **Cost Center Card**. The **IoT PV Settings** group has the settings be
 |---|---|
 | **Counter Update Interval (ms)** | How often the counter information on the electronic job ticket is updated, in milliseconds. |
 | **Speed Display Unit** | How the speed is displayed on the electronic job ticket: per **Minute**, **Hour** or **Day**. |
+| **Speed Averaging Window (sec)** | Specifies over how many seconds the current speed is averaged. The counter value arrives roughly every second and can vary, so the speed over a single message jumps; a longer window smooths it out. Set to 0 to calculate the speed over the last message only. Defaults to 30 seconds. |
 | **Machine Counter Activated** | Turn this on to add a record to the PrintVis machine counter table and signal that this feature is active. |
 | **Auto Switch to Production Mode** | Switches to production automatically when the production speed threshold is met. |
 | **Production Speed Threshold** | The speed that triggers the automatic switch. |
