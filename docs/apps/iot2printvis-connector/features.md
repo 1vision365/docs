@@ -6,7 +6,7 @@
 The electronic job ticket shows a **Counter** part with live information from the machine:
 
 - **Current Operation** and **Total Job**, in sheets.
-- **Current Speed**, in sheets per minute.
+- **Current Speed**, in sheets per minute, averaged over the **Speed Averaging Window (sec)** set on the cost center so it does not jump with every message.
 - **Start Counter** and **Current Counter**.
 
 The part shows a warning when something is wrong: **COUNTER OFFLINE**, **IOT-HUB CONNECTION LOST** or **INVALID LICENSE**. Choose **Counter Registrations** to see all counter registrations of the cost center.
