@@ -4,6 +4,12 @@ Newest first.
 
 <!-- agent:begin release-notes -->
 
+## 28.5.492 — 18 November 2026
+
+### Fixed
+
+- When an idle time registration splits a production entry into several segments, each segment's **Machine Counter Begin** and **Machine Counter End** now reflect only its own share of the machine counter range, in proportion to its quantity. Previously, a split-off segment could repeat the full counter range of the original registration, or show 0/0.
+
 ## 28.5.485 — 16 November 2026
 
 ### Improved
