@@ -4,6 +4,12 @@ Newest first.
 
 <!-- agent:begin release-notes -->
 
+## 28.5.497 — 20 November 2026
+
+### New
+
+- You can now set an **Idle Time Unit of Measure** on the cost center. When set, idle time lines generated for that cost center are posted under this unit instead of the unit of measure of the operation that was running.
+
 ## 28.5.492 — 18 November 2026
 
 ### Fixed
