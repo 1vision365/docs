@@ -10,6 +10,10 @@ For the full details per app, open the release notes of that app:
 
 <!-- agent:begin release-overview -->
 
+## 28.5.492 — 18 November 2026
+
+- **IoT-2-PrintVis Connector** ([details](apps/iot2printvis-connector/release-notes.md)): when an idle time registration splits a production entry into several segments, each segment's machine counter range now reflects only its own share instead of repeating the full range or showing 0/0.
+
 ## 28.5.485 — 16 November 2026
 
 - **IoT-2-PrintVis Connector** ([details](apps/iot2printvis-connector/release-notes.md)): the current speed on the electronic job ticket is now averaged over a configurable window so it no longer jumps between readings; an out-of-order counter message no longer disturbs the speed or the stopped state.
